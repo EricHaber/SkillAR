@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skillar - Aprende practicando en realidad virtual</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 1. Encabezado -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Skillar Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Inicio</a></li>
+                    <li><a href="#cursos">Cursos</a></li>
+                    <li><a href="#empresas">Empresas</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <button class="btn-primary">Empieza ahora</button>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Aprende practicando.</h1>
+            <h2>Donde quieras, cuando quieras.</h2>
+            <p>Cursos prácticos en realidad virtual para salud, cocina, manufactura y más.</p>
+            <button class="btn-primary">Probar demo gratuita</button>
+        </div>
+        <div class="overlay"></div>
+        <!-- Video replaced with gradient background in CSS -->
+    </section>
+
+    <!-- 3. ¿Qué es Skillar? -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">¿Qué es Skillar?</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Skillar es una plataforma de aprendizaje inmersiva que utiliza la realidad virtual para ofrecer experiencias prácticas en diferentes áreas profesionales.</p>
+                    <p>Aprende habilidades prácticas en un entorno seguro, con guía experta y a tu propio ritmo.</p>
+                </div>
+                <div class="about-image">
+                    <div class="about-icon-grid">
+                        <div class="icon-item"><i class="fas fa-heartbeat"></i><span>Salud</span></div>
+                        <div class="icon-item"><i class="fas fa-utensils"></i><span>Cocina</span></div>
+                        <div class="icon-item"><i class="fas fa-cogs"></i><span>Manufactura</span></div>
+                        <div class="icon-item"><i class="fas fa-graduation-cap"></i><span>Educación</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Beneficios -->
+    <section class="benefits">
+        <div class="container">
+            <h2 class="section-title">Beneficios</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Educación práctica sin riesgos</h3>
+                    <p>Practica procedimientos complejos en un entorno virtual seguro, sin consecuencias reales.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="icon"><i class="fas fa-vr-cardboard"></i></div>
+                    <h3>Aprendizaje inmersivo y repetible</h3>
+                    <p>Sumérgete completamente en la experiencia y repite las prácticas cuantas veces necesites.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="icon"><i class="fas fa-building"></i></div>
+                    <h3>Formación personalizada para empresas</h3>
+                    <p>Programas adaptados a las necesidades específicas de tu negocio y equipo.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="icon"><i class="fas fa-certificate"></i></div>
+                    <h3>Certificación opcional</h3>
+                    <p>Obtén certificados que avalen tus nuevas habilidades y conocimientos adquiridos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Cursos destacados -->
+    <section class="featured-courses" id="cursos">
+        <div class="container">
+            <h2 class="section-title">Cursos destacados</h2>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-icon health-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <div class="course-content">
+                        <span class="category">Salud</span>
+                        <h3>Sutura básica</h3>
+                        <p>Aprende técnicas fundamentales de sutura médica en un entorno virtual realista.</p>
+                        <a href="#" class="course-link">Ver curso <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon cooking-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <div class="course-content">
+                        <span class="category">Gastronomía</span>
+                        <h3>Cocina molecular</h3>
+                        <p>Domina las técnicas avanzadas de la gastronomía molecular con prácticas interactivas.</p>
+                        <a href="#" class="course-link">Ver curso <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon manufacturing-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="course-content">
+                        <span class="category">Manufactura</span>
+                        <h3>Uso seguro de maquinaria</h3>
+                        <p>Aprende a operar maquinaria industrial de forma segura y eficiente.</p>
+                        <a href="#" class="course-link">Ver curso <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="center-btn">
+                <button class="btn-secondary">Ver todos los cursos</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Para empresas -->
+    <section class="business" id="empresas">
+        <div class="container">
+            <h2 class="section-title">Para empresas</h2>
+            <div class="business-content">
+                <div class="business-image">
+                    <div class="business-icon-container">
+                        <i class="fas fa-users"></i>
+                    </div>
+                </div>
+                <div class="business-text">
+                    <h3>Formación escalable y a medida</h3>
+                    <p>Programas de entrenamiento adaptados a las necesidades específicas de tu organización, con la posibilidad de escalar a miles de empleados.</p>
+                    
+                    <h3>Mejora el rendimiento de tu equipo</h3>
+                    <p>Incrementa la efectividad y eficiencia de tus colaboradores con formación práctica de alta calidad.</p>
+                    
+                    <button class="btn-primary">Solicitar información</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Testimonios -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Testimonios</h2>
+            <div class="testimonial-wrapper">
+                <div class="testimonial active" id="testimonial-1">
+                    <div class="testimonial-content">
+                        <p>"Skillar ha revolucionado mi forma de aprender. La experiencia inmersiva hace que retener conocimientos sea mucho más fácil."</p>
+                        <div class="testimonial-author">
+                            <div class="avatar-placeholder">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div>
+                                <h4>Ana Martínez</h4>
+                                <span>Estudiante de medicina</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial" id="testimonial-2">
+                    <div class="testimonial-content">
+                        <p>"Implementamos Skillar en nuestra empresa y hemos reducido los accidentes laborales en un 35%. La formación inmersiva realmente funciona."</p>
+                        <div class="testimonial-author">
+                            <div class="avatar-placeholder">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div>
+                                <h4>Carlos Vega</h4>
+                                <span>Director de RRHH, Industrias XYZ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial" id="testimonial-3">
+                    <div class="testimonial-content">
+                        <p>"Como chef, el curso de cocina molecular me ha permitido experimentar técnicas avanzadas sin desperdiciar ingredientes costosos."</p>
+                        <div class="testimonial-author">
+                            <div class="avatar-placeholder">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div>
+                                <h4>Lucía Gómez</h4>
+                                <span>Chef profesional</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="prev" aria-label="Anterior testimonio"><i class="fas fa-chevron-left"></i></button>
+                    <div class="testimonial-indicators">
+                        <span class="indicator active" data-index="0"></span>
+                        <span class="indicator" data-index="1"></span>
+                        <span class="indicator" data-index="2"></span>
+                    </div>
+                    <button class="next" aria-label="Siguiente testimonio"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. CTA Final -->
+    <section class="cta">
+        <div class="container">
+            <h2>Empieza tu formación práctica hoy mismo</h2>
+            <p>Únete a miles de estudiantes y profesionales que ya están mejorando sus habilidades con Skillar.</p>
+            <button class="btn-primary">Crea tu cuenta gratis</button>
+        </div>
+    </section>
+
+    <!-- 9. Footer -->
+    <footer id="contacto">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo-text">Skillar</div>
+                    <p>La plataforma de aprendizaje inmersivo que revoluciona la formación práctica.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces rápidos</h3>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#cursos">Cursos</a></li>
+                        <li><a href="#empresas">Empresas</a></li>
+                        <li><a href="#about">Sobre nosotros</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Síguenos</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contacto</h3>
+                    <p><i class="fas fa-envelope"></i> info@skillar.com</p>
+                    <p><i class="fas fa-phone"></i> +34 999 999 999</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Calle Innovación, 123<br>28001 Madrid, España</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Skillar. Sin los derechos reservados.</p>
+                <div class="footer-legal">
+                    <a href="#">Aviso legal</a>
+                    <a href="#">Política de privacidad</a>
+                    <a href="#">Términos y condiciones</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
